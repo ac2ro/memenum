@@ -60,6 +60,5 @@ void main () {
     }
     
     writeln("Paused MemEnumerator to Debug...");
-    signal(SIGINT , &handleInterrupt);
     getchar();
 }
